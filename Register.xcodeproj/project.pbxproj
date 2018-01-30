@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		567416D12016D98E00277329 /* PlistServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567416D02016D98E00277329 /* PlistServices.swift */; };
+		567416F52017091000277329 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567416F42017091000277329 /* City.swift */; };
+		567416F720170B6B00277329 /* District.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567416F620170B6B00277329 /* District.swift */; };
+		567416F920170F4A00277329 /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567416F820170F4A00277329 /* DataServices.swift */; };
+		567416FB2017329C00277329 /* CitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567416FA2017329C00277329 /* CitiesTableViewController.swift */; };
+		567416FD201732BD00277329 /* DistrictTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567416FC201732BD00277329 /* DistrictTableViewController.swift */; };
+		567417012017330900277329 /* GenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567417002017330900277329 /* GenderViewController.swift */; };
+		567417032017331E00277329 /* AgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567417022017331E00277329 /* AgeViewController.swift */; };
+		56741705201733B100277329 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56741704201733B100277329 /* ResultViewController.swift */; };
 		56FAA2BD2016BA9700B5CED2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FAA2BC2016BA9700B5CED2 /* AppDelegate.swift */; };
-		56FAA2BF2016BA9700B5CED2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FAA2BE2016BA9700B5CED2 /* ViewController.swift */; };
 		56FAA2C22016BA9700B5CED2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56FAA2C02016BA9700B5CED2 /* Main.storyboard */; };
 		56FAA2C42016BA9700B5CED2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56FAA2C32016BA9700B5CED2 /* Assets.xcassets */; };
 		56FAA2C72016BA9700B5CED2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56FAA2C52016BA9700B5CED2 /* LaunchScreen.storyboard */; };
+		56FAA2D12016BADF00B5CED2 /* Cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56FAA2CE2016BAC500B5CED2 /* Cities.plist */; };
+		56FAA2D22016BAE200B5CED2 /* Districts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56FAA2CF2016BAC500B5CED2 /* Districts.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		567416D02016D98E00277329 /* PlistServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistServices.swift; sourceTree = "<group>"; };
+		567416F42017091000277329 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = City.swift; path = Register/Data/City.swift; sourceTree = SOURCE_ROOT; };
+		567416F620170B6B00277329 /* District.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = District.swift; sourceTree = "<group>"; };
+		567416F820170F4A00277329 /* DataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
+		567416FA2017329C00277329 /* CitiesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesTableViewController.swift; sourceTree = "<group>"; };
+		567416FC201732BD00277329 /* DistrictTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictTableViewController.swift; sourceTree = "<group>"; };
+		567417002017330900277329 /* GenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderViewController.swift; sourceTree = "<group>"; };
+		567417022017331E00277329 /* AgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeViewController.swift; sourceTree = "<group>"; };
+		56741704201733B100277329 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		56FAA2B92016BA9700B5CED2 /* Register.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Register.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56FAA2BC2016BA9700B5CED2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		56FAA2BE2016BA9700B5CED2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		56FAA2C12016BA9700B5CED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		56FAA2C32016BA9700B5CED2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56FAA2C62016BA9700B5CED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56FAA2C82016BA9700B5CED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56FAA2CE2016BAC500B5CED2 /* Cities.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cities.plist; sourceTree = "<group>"; };
+		56FAA2CF2016BAC500B5CED2 /* Districts.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Districts.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +55,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		567416F02016F36700277329 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				567416F42017091000277329 /* City.swift */,
+				567416F620170B6B00277329 /* District.swift */,
+				567416F820170F4A00277329 /* DataServices.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		567416F3201707AF00277329 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				567416FA2017329C00277329 /* CitiesTableViewController.swift */,
+				567416FC201732BD00277329 /* DistrictTableViewController.swift */,
+				567417002017330900277329 /* GenderViewController.swift */,
+				567417022017331E00277329 /* AgeViewController.swift */,
+				56741704201733B100277329 /* ResultViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		56FAA2B02016BA9700B5CED2 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +96,27 @@
 		56FAA2BB2016BA9700B5CED2 /* Register */ = {
 			isa = PBXGroup;
 			children = (
+				567416D02016D98E00277329 /* PlistServices.swift */,
+				567416F3201707AF00277329 /* ViewController */,
+				567416F02016F36700277329 /* Data */,
+				56FAA2D02016BACC00B5CED2 /* FileSplist */,
 				56FAA2BC2016BA9700B5CED2 /* AppDelegate.swift */,
-				56FAA2BE2016BA9700B5CED2 /* ViewController.swift */,
 				56FAA2C02016BA9700B5CED2 /* Main.storyboard */,
+				56FAA2C82016BA9700B5CED2 /* Info.plist */,
 				56FAA2C32016BA9700B5CED2 /* Assets.xcassets */,
 				56FAA2C52016BA9700B5CED2 /* LaunchScreen.storyboard */,
-				56FAA2C82016BA9700B5CED2 /* Info.plist */,
 			);
 			path = Register;
+			sourceTree = "<group>";
+		};
+		56FAA2D02016BACC00B5CED2 /* FileSplist */ = {
+			isa = PBXGroup;
+			children = (
+				56FAA2CE2016BAC500B5CED2 /* Cities.plist */,
+				56FAA2CF2016BAC500B5CED2 /* Districts.plist */,
+			);
+			name = FileSplist;
+			path = "file plist";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +179,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				56FAA2C72016BA9700B5CED2 /* LaunchScreen.storyboard in Resources */,
+				56FAA2D22016BAE200B5CED2 /* Districts.plist in Resources */,
 				56FAA2C42016BA9700B5CED2 /* Assets.xcassets in Resources */,
 				56FAA2C22016BA9700B5CED2 /* Main.storyboard in Resources */,
+				56FAA2D12016BADF00B5CED2 /* Cities.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +193,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56FAA2BF2016BA9700B5CED2 /* ViewController.swift in Sources */,
+				567417012017330900277329 /* GenderViewController.swift in Sources */,
+				567416F52017091000277329 /* City.swift in Sources */,
+				567417032017331E00277329 /* AgeViewController.swift in Sources */,
+				567416F920170F4A00277329 /* DataServices.swift in Sources */,
+				567416F720170B6B00277329 /* District.swift in Sources */,
+				56741705201733B100277329 /* ResultViewController.swift in Sources */,
+				567416FD201732BD00277329 /* DistrictTableViewController.swift in Sources */,
+				567416D12016D98E00277329 /* PlistServices.swift in Sources */,
+				567416FB2017329C00277329 /* CitiesTableViewController.swift in Sources */,
 				56FAA2BD2016BA9700B5CED2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
